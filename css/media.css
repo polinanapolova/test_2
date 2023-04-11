@@ -1,0 +1,137 @@
+
+@media (max-width: 1024px){
+
+
+    .container{
+       padding-left: 14px;
+       padding-right: 14px;
+       max-width: 320px;
+    }
+
+    .header-nav{
+        /* display: flex;
+        justify-content: space-between;
+        align-items: flex-end; */
+        padding-top: 20px;
+        margin-bottom: 40px;
+        
+    }
+    #logo{
+    display: none;
+    }
+    #logo::after{
+    display: none;
+    }
+
+    .nav-list{
+        text-transform: uppercase;
+        column-gap: 14px;
+        font-size: 12px;
+    }
+
+    #nav-contacts{
+    display: none;
+    }
+
+    .nav-link_2{
+        display: none;
+    }
+    
+    .header-row{
+        /* display: flex; */
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* column-gap: 30px; */
+    }
+
+    .header-info{
+       
+        font-size: 36px;
+        line-height: 44px;
+
+    }
+
+    .small_white{
+        padding-top: 15px;
+        line-height: 22px;
+        font-size: 18px;
+    }
+
+    .header-gift{
+        margin-top: 35px;
+        font-size: 18px;
+    }
+    .gift-card{
+        display: none;
+    }
+    /* .text{
+        display: none;
+    } */
+
+    .button{
+        display: none;
+    }
+
+    .mobile-card{
+        margin-top: 20px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        line-height: 24px;
+    }
+
+
+    .mobile-group{
+        display: inline-block;
+        /* margin-bottom: 60px; */
+    }
+
+    .mobile-gift::before{
+        content: "- ";
+        /* position: absolute;
+        display:block; */
+        background: linear-gradient(to right, #FCB045, #FF3F78);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .footer{
+        margin-top: 60px;
+    }
+
+    .foo-container{
+        flex-direction: column;
+        
+    }
+
+    .footer-container{
+        flex-direction: column;
+        font-size: 14px;
+    }
+    
+    .footer-title_2{
+        text-align: left;
+    }
+
+    .footer-img{
+        justify-content: flex-start;
+    }
+
+    .footer-author{
+        text-align: left;
+    }
+    .footer-title p {
+        margin-top: 30px;
+    }
+    /* .footer-title_2{
+        flex-direction: column;
+    } */
+
+   
+
+}

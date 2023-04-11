@@ -1,0 +1,287 @@
+@import "./reset.css";
+@import "./media.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.mobile-card{
+    display: none;
+}
+
+body{
+    font-family: 'Inter';
+    /* font-family: 'Fira Code', monospace; */
+    background-color: #1E1E1E;
+    color: #E4E5EA;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #1E1E1E;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 46px;
+    margin-bottom: 144px;
+}
+
+.nav-list{
+    display: flex;
+    column-gap: 32px;
+    font-weight: 400;
+    font-style: 16px;
+}
+
+.nav-contacts{
+    display: flex;
+    column-gap: 32px;
+    font-weight: 500;
+    font-style: 16px;
+}
+
+.nav-link{
+    color:#E4E5EA;
+}
+
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+/* .gift-card{
+    display: flex;
+} */
+
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#logo::after{
+    content: "крупный интегратор CRM в Росcии и ещё 8 странах";
+    position: absolute;
+    display:block;
+    /* float:left; */
+    font-weight: 300;
+    font-size: 10px;
+    color: #E4E5EA;
+    width: 165px;
+    padding-top: 10px;
+    font-family: 'Montserrat';
+}
+
+.header-info{
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.header-info .small_white{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.orange{
+    /* text-transform: uppercase; */
+    font-weight: 700;
+    font-size: 18px;
+   background: linear-gradient(to right, #FCB045, #FF3F78);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   /* font-family: 'Inter'; */
+}
+
+.big{
+    font-weight: 900;
+font-size: 48px;
+
+}
+
+.small_white{
+    padding-top: 30px;
+    font-family: 'Montserrat';
+}
+
+.header-gift{
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.gift-card{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 46px;
+    text-align: right;
+}
+.card{
+    column-gap: 46px;
+    margin-top: 30px;
+    
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+.button{
+    width: 262px;
+    height: 61px;
+    background-color: #4077F3;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 82px;
+    float:right;
+}
+
+.button-text{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.footer{
+    margin-top: 124px;
+}
+
+.foo-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 100px;
+}
+
+.footer-title p{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #656566;
+}
+
+#nav-footer{
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #E4E5EA;
+}
+
+.footer-title_2{
+    text-align: right;
+}
+
+.footer-title_1{
+    display: flex; 
+     justify-content: space-between;
+     column-gap: 52px;
+}
+.footer-img{
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: flex-start; */
+
+    column-gap: 10px;
+    
+    
+}
+
+.footer-author{
+    font-family: 'Montserrat';
+    margin-top: 33px;
+    text-align: right;
+    font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+}
+
+.polit{
+    text-decoration-line: underline;
+}
+
+.ball_1{
+    position: absolute;
+width: 311px;
+height: 311px;
+left: -102px;
+top: 251px;
+
+background: #961A1A;
+opacity: 0.5;
+filter: blur(196px);
+border-radius: 50%;
+}
+
+.ball_2{
+position: absolute;
+width: 259px;
+height: 259px;
+left: 602px;
+top: -154px;
+
+background: #833AB4;
+opacity: 0.5;
+filter: blur(196px);
+border-radius: 50%;
+}
+
+.ball_3{
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 519px;
+    top: 83px;
+    
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 50%;
+}
+.ball_4{
+    position: absolute;
+width: 60px;
+height: 60px;
+left: 868px;
+top: -2px;
+
+background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+filter: blur(5px);
+backdrop-filter: blur(2px);
+border-radius: 50%;
+}
+.ball_5{
+    
+position: absolute;
+width: 28px;
+height: 28px;
+left: 851px;
+top: 547px;
+
+background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+filter: blur(2.5px);
+backdrop-filter: blur(2px);
+border-radius: 50%;
+}
